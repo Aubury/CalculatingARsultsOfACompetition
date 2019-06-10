@@ -10,6 +10,30 @@ body{
 
     background-color: #E6E6FA !important;
 }
+header{
+    margin: 2em;
+}
+h1,h2{
+    font-style: italic;
+    color: dimgrey;
+}
+.flag img{
+    width: 2.5em;
+    height: 2em;
+    margin-left: 1em;
+}
+.flag{
+    margin-right: 5em;
+}
+
+.rowFlex {
+    display: flex;
+    flex-direction: row;
+}
+.colFlex{
+display: flex;
+   flex-direction: column;
+}
 th{
     font-size: 100%;
     color: black;

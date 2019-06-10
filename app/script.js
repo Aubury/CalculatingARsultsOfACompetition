@@ -282,7 +282,7 @@ function generate_table(e) {
            printButton.setAttribute('type','button');
            printButton.setAttribute('class','btn btn-primary btn-lg');
            printButton.style.margin = '20px';
-           printButton.innerText = 'Роздрук';
+           printButton.innerText = 'Роздрук переможців';
 
            printButton.addEventListener('click', function(){
                let storageMass = JSON.parse ( window.localStorage.getItem ( 'tablesMass' ) ),
